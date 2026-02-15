@@ -2,11 +2,11 @@
 import { FeatureCard, Variant, ExtractionStep, Testimonial, Ingredient } from './types';
 
 export const VARIANTS: Variant[] = [
-  { id: 'VIRD-01', name: 'Forest Focus', price: '$4.99', image: '/product-images/Forest focus.png' },
-  { id: 'VIRD-02', name: 'Nordic Berry', price: '$5.99', image: '/product-images/Nordic Berry.png' },
-  { id: 'VIRD-03', name: 'Glacial Electrolyte', price: '$6.49', image: '/product-images/Glacial Electrolyte.png' },
-  { id: 'VIRD-04', name: 'Adaptogen Energy', price: '$6.99', image: '/product-images/Adaptogen Energy.png' },
-  { id: 'VIRD-05', name: 'Night Repair', price: '$5.49', image: '/product-images/Night Repair.png' },
+  { id: 'VIRD-01', name: 'Forest Focus', price: '$4.99', image: './product-images/Forest focus.png' },
+  { id: 'VIRD-02', name: 'Nordic Berry', price: '$5.99', image: './product-images/Nordic Berry.png' },
+  { id: 'VIRD-03', name: 'Glacial Electrolyte', price: '$6.49', image: './product-images/Glacial Electrolyte.png' },
+  { id: 'VIRD-04', name: 'Adaptogen Energy', price: '$6.99', image: './product-images/Adaptogen Energy.png' },
+  { id: 'VIRD-05', name: 'Night Repair', price: '$5.49', image: './product-images/Night Repair.png' },
 ];
 
 export const FEATURES: FeatureCard[] = [
