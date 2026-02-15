@@ -1,0 +1,25 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Icon -->
+  <g transform="translate(0, 0)">
+    <path d="M50 5 L89 27.5 V72.5 L50 95 L11 72.5 V27.5 L50 5Z" stroke="#8CA924" stroke-opacity="0.2" stroke-width="2" />
+    <path d="M50 15 C50 15 80 35 80 60 C80 85 50 85 50 85 C50 85 20 85 20 60 C20 35 50 15 50 15Z" fill="url(#logoGradient)" />
+    <path d="M50 15 V85 M50 35 L70 45 M50 55 L30 65 M50 70 L60 75" stroke="white" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round" />
+    <circle cx="75" cy="30" r="3" fill="white" />
+    <circle cx="25" cy="40" r="2" fill="white" />
+  </g>
+  
+  <!-- Text Branding -->
+  <text x="110" y="55" font-family="Anton, sans-serif" font-size="32" font-weight="bold" fill="white" style="text-transform: uppercase; letter-spacing: 0.2em;">
+    FOREST <tspan fill="#8CA924">FUEL</tspan>
+  </text>
+  <text x="110" y="75" font-family="Inter, sans-serif" font-size="10" fill="#666" style="text-transform: uppercase; letter-spacing: 0.5em;">
+    BIO-TECH PERFORMANCE
+  </text>
+
+  <defs>
+    <linearGradient id="logoGradient" x1="50" y1="15" x2="50" y2="85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CA924" />
+      <stop offset="1" stop-color="#5E7218" />
+    </linearGradient>
+  </defs>
+</svg>
